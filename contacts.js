@@ -1,6 +1,8 @@
 const fs = require("fs");
 const path = require("path");
 const contactsPath = path.join(__dirname, "db", "contacts.json"); 
+
+
 function listContacts() {
 
   const contactsData = fs.readFileSync(contactsPath, "utf-8");
@@ -28,7 +30,7 @@ function addContact(name, email, phone) {
   const contacts = JSON.parse(contactsData);
 
   const newContact = {
-    id: generateContactId(), // Implementa esta función para generar un ID único
+    id: generateContactId(),
     name,
     email,
     phone,
@@ -56,9 +58,19 @@ function removeContact(id) {
   }
 }
 
-function generateContactId() {
-
-}
+function generateContactId(contacts) {
+    if (contacts.length === 0) {
+      return "1"; 
+    }
+    
+   
+    const highestId = contacts.reduce((highest, contact) => {
+      const contactId = parseInt(contact.id);
+      return contactId > highest ? contactId : highest;
+    }, 0);
+    
+    return (highestId + 1).toString();
+  }
 
 module.exports = { listContacts, getContactById, addContact, removeContact };
 
