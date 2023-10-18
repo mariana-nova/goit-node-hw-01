@@ -30,7 +30,7 @@ function addContact(name, email, phone) {
   const contacts = JSON.parse(contactsData);
 
   const newContact = {
-    id: generateContactId(),
+    id: generateContactId(contacts),
     name,
     email,
     phone,
@@ -68,7 +68,7 @@ function generateContactId(contacts) {
       const contactId = parseInt(contact.id);
       return contactId > highest ? contactId : highest;
     }, 0);
-    
+
     return (highestId + 1).toString();
   }
 
