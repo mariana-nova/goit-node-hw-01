@@ -2,13 +2,16 @@
 
 capturas de pantalla a entregar
 
-https://monosnap.com/file/xMUzSJxxkN6HGaSqhUJyJGdsQLt3cP
+https://monosnap.com/file/0L9IPU30eAUm5nWUveqxZqEtbaAQ24
 
-https://monosnap.com/file/h6Ce8KGy9KdG9j65KmAxnGLz2VFn70
+https://monosnap.com/file/cQtt6eQIkmIBjLI5wkdUiLUCJewfR3
 
-https://monosnap.com/file/HIimyh4Iy12gmXcThtAKyrq06NtPrW
+https://monosnap.com/file/eMbORzSB6Tq67MQFEAh1vaNl9bZpBc
 
-https://monosnap.com/file/BPUGHI8keuQsJNO6l0tZfEvopcagUv
+https://monosnap.com/file/1v5s0Q9AoNWrf6v4TVzBlkaxb9pm59
+
+
+
 
 
 
